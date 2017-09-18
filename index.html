@@ -172,15 +172,16 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="Item-1-Consider-static-factory-methods-instead-of-constructors"><a href="#Item-1-Consider-static-factory-methods-instead-of-constructors" class="headerlink" title="Item 1: Consider static factory methods instead of constructors"></a>Item 1: Consider static factory methods instead of constructors</h2><h3 id="Advantage"><a href="#Advantage" class="headerlink" title="Advantage:"></a>Advantage:</h3><ol>
-<li>Unlike constructors, they have names.</li>
-<li>Unlike constructors, they are not required to create a new object each time they’re invoked.</li>
-<li>Unlike constructors, they can return an object of any subtype of their return type.</li>
-<li>They reduce the verbosity of creating parameterized type instances.</li>
+<li>One advantage of static factory methods is that, unlike constructors, they have names.</li>
+<li>A second advantage of static factory methods is that, unlike constructors, they are not required to create a new object each time they’re invoked.</li>
+<li>A third advantage of static factory methods is that, unlike constructors, they can return an object of any subtype of their return type.</li>
+<li>A fourth advantage of static factory methods is that they reduce the verbosity of creating parameterized type instances.</li>
 </ol>
 <h3 id="Disdvantage"><a href="#Disdvantage" class="headerlink" title="Disdvantage:"></a>Disdvantage:</h3><ol>
-<li>Classes without public or protected constructors cannot be subclassed.</li>
-<li>They are not readily distinguishable from other static methods.</li>
+<li>The main disadvantage of providing only static factory methods is that classes without public or protected constructors cannot be subclassed.</li>
+<li>A second disadvantage of static factory methods is that they are not readily distinguishable from other static methods.</li>
 </ol>
+<p>![] (../001)</p>
 
       
 
