@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Effective Java | bbfeechen&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Item 1: Consider static factory methods instead of constructorsAdvantage: One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory me">
+  <meta name="description" content="Item 1: Consider static factory methods instead of constructorsAdvantage:  One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory m">
 <meta name="keywords" content="java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Effective Java">
 <meta property="og:url" content="http://yoursite.com/2017/09/16/effective_java_item1/index.html">
 <meta property="og:site_name" content="bbfeechen&#39;s blog">
-<meta property="og:description" content="Item 1: Consider static factory methods instead of constructorsAdvantage: One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory me">
+<meta property="og:description" content="Item 1: Consider static factory methods instead of constructorsAdvantage:  One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory m">
 <meta property="og:image" content="http://yoursite.com/2017/09/16/effective_java_item1/img/001.png">
-<meta property="og:updated_time" content="2017-09-18T05:40:12.000Z">
+<meta property="og:updated_time" content="2017-09-18T06:00:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Effective Java">
-<meta name="twitter:description" content="Item 1: Consider static factory methods instead of constructorsAdvantage: One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory me">
+<meta name="twitter:description" content="Item 1: Consider static factory methods instead of constructorsAdvantage:  One advantage of static factory methods is that, unlike constructors, they have names. A second advantage of static factory m">
 <meta name="twitter:image" content="http://yoursite.com/2017/09/16/effective_java_item1/img/001.png">
   
     <link rel="alternative" href="/atom.xml" title="bbfeechen&#39;s blog" type="application/atom+xml">
@@ -172,13 +172,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Item-1-Consider-static-factory-methods-instead-of-constructors"><a href="#Item-1-Consider-static-factory-methods-instead-of-constructors" class="headerlink" title="Item 1: Consider static factory methods instead of constructors"></a>Item 1: Consider static factory methods instead of constructors</h2><h3 id="Advantage"><a href="#Advantage" class="headerlink" title="Advantage:"></a>Advantage:</h3><ol>
+        <h2 id="Item-1-Consider-static-factory-methods-instead-of-constructors"><a href="#Item-1-Consider-static-factory-methods-instead-of-constructors" class="headerlink" title="Item 1: Consider static factory methods instead of constructors"></a>Item 1: Consider static factory methods instead of constructors</h2><p><strong>Advantage:</strong></p>
+<ol>
 <li>One advantage of static factory methods is that, unlike constructors, they have names.</li>
 <li>A second advantage of static factory methods is that, unlike constructors, they are not required to create a new object each time they’re invoked.</li>
 <li>A third advantage of static factory methods is that, unlike constructors, they can return an object of any subtype of their return type.</li>
 <li>A fourth advantage of static factory methods is that they reduce the verbosity of creating parameterized type instances.</li>
 </ol>
-<h3 id="Disdvantage"><a href="#Disdvantage" class="headerlink" title="Disdvantage:"></a>Disdvantage:</h3><ol>
+<p><strong>Disdvantage:</strong></p>
+<ol>
 <li>The main disadvantage of providing only static factory methods is that classes without public or protected constructors cannot be subclassed.</li>
 <li>A second disadvantage of static factory methods is that they are not readily distinguishable from other static methods.</li>
 </ol>
