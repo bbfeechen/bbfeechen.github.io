@@ -42,7 +42,7 @@
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="" class="profilepic">
-			<img src="./img/avatar.jpg" class="js-avatar">
+			<img src="/avatar.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="">Kailiang Chen</a></h1>
@@ -96,7 +96,7 @@
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="./img/avatar.jpg" class="js-avatar">
+				<img src="/avatar.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">Kailiang Chen</h1>
@@ -167,14 +167,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Item-2-Consider-a-builder-when-faced-with-many-constructor-parameter"><a href="#Item-2-Consider-a-builder-when-faced-with-many-constructor-parameter" class="headerlink" title="Item 2: Consider a builder when faced with many constructor parameter"></a>Item 2: Consider a builder when faced with many constructor parameter</h2><ol>
-<li>The telescoping constructor pattern works, but it is hard to write client code when there are many paramters, and harder still to read it.</li>
-<li>The JavaBean may be in an inconsitent state partway through its construction and it precludes the possibility of making a class immutable.</li>
-<li>The Builder pattern simulates named optional paramters, and its parameters have been set makes a fine Abstract Factory, usually a generic type suffices for all builders.</li>
-<li>The Builder pattern is a good choice when designing classes whose constructors or static factories would have more than a handful of paramters.</li>
-</ol>
-<p><img src="./img/002.png" width="300" height="500"></p>
-
+        <h2 id="Item-2-Consider-a-builder-when-faced-with-many-constructor-parameter"><a href="#Item-2-Consider-a-builder-when-faced-with-many-constructor-parameter" class="headerlink" title="Item 2: Consider a builder when faced with many constructor parameter"></a>Item 2: Consider a builder when faced with many constructor parameter</h2>
+        
+          <a class="article-more-a" href="/2017/09/20/effective-java-post2/#more">more >></a>
+        
       
 
       
@@ -254,20 +250,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Item-1-Consider-static-factory-methods-instead-of-constructors"><a href="#Item-1-Consider-static-factory-methods-instead-of-constructors" class="headerlink" title="Item 1: Consider static factory methods instead of constructors"></a>Item 1: Consider static factory methods instead of constructors</h2><p><strong>Advantage</strong></p>
-<ol>
-<li>One advantage of static factory methods is that, unlike constructors, they have names.</li>
-<li>A second advantage of static factory methods is that, unlike constructors, they are not required to create a new object each time they’re invoked.</li>
-<li>A third advantage of static factory methods is that, unlike constructors, they can return an object of any subtype of their return type.</li>
-<li>A fourth advantage of static factory methods is that they reduce the verbosity of creating parameterized type instances.</li>
-</ol>
-<p><strong>Disdvantage</strong></p>
-<ol>
-<li>The main disadvantage of providing only static factory methods is that classes without public or protected constructors cannot be subclassed.</li>
-<li>A second disadvantage of static factory methods is that they are not readily distinguishable from other static methods.</li>
-</ol>
-<p><img src="./img/001.png" width="300" height="500"></p>
-
+        <h2 id="Item-1-Consider-static-factory-methods-instead-of-constructors"><a href="#Item-1-Consider-static-factory-methods-instead-of-constructors" class="headerlink" title="Item 1: Consider static factory methods instead of constructors"></a>Item 1: Consider static factory methods instead of constructors</h2>
+        
+          <a class="article-more-a" href="/2017/09/16/effective-java-post1/#more">more >></a>
+        
       
 
       
